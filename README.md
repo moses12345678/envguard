@@ -11,7 +11,7 @@
 - CLI-ready: coming soon with `argparse`
 - MIT licensed and open for contributions
 
-## 📄 Example
+##  Example
 
 ### Original `.env`
 ```
@@ -37,7 +37,7 @@ DATABASE_PORT = ENC(5c934a2a5fd374bc9b...)
 DATABASE_OPTIONS = ENC(56c899f0dc2c3e2bfc9...)
 ```
 
-## 🚀 Quickstart
+##  Quickstart
 
 1. Extract sensitive values:
 ```bash
@@ -59,7 +59,7 @@ python encryptor.py
 python decryptor.py
 ```
 
-## 🎯 Next Goals
+##  Next Goals
 
 - [x] AES encryption
 - [x] Clean `.env` extraction
