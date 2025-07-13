@@ -51,12 +51,12 @@ python key_manager.py
 
 3. Encrypt:
 ```bash
-python encryptor.py .env encrypt.txt
+python encryptor.py
 ```
 
 4. Decrypt:
 ```bash
-python decryptor.py encrypt.txt decrypt.txt
+python decryptor.py
 ```
 
 ## 🎯 Next Goals
