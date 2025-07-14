@@ -36,6 +36,21 @@ DATABASE_HOST = ENC(a2e3675e98e841cbfe7...)
 DATABASE_PORT = ENC(5c934a2a5fd374bc9b...)
 DATABASE_OPTIONS = ENC(56c899f0dc2c3e2bfc9...)
 ```
+---
+
+##  Installation
+
+First, create and activate a virtual environment:
+
+```bash
+python3 -m venv env
+source env/bin/activate  # On Windows use: .\env\Scripts\activate
+
+```bash
+pip install cryptography
+or
+pip install -r requirements.txt
+---
 
 ##  Quickstart
 
