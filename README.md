@@ -73,6 +73,9 @@ This project is open under the MIT License.
 
 Take your time, understand the flow, and write the code yourself. The goal is to learn deeply, not copy blindly.
 
+## 👤 Author
+#### Moussa Diallo
+Aspiring DevSecOps Engineer | Builder | Learner
 ## License
 
 MIT
