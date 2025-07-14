@@ -48,8 +48,11 @@ source env/bin/activate  # On Windows use: .\env\Scripts\activate
 
 ```bash
 pip install cryptography
+```
 or
+```bash
 pip install -r requirements.txt
+```
 ---
 
 ##  Quickstart
