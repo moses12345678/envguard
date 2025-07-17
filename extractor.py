@@ -1,8 +1,8 @@
 import os
 
-def extract_secret_and_database(file_path):
+def extract_secret_and_database(file_path, outpath):
     output_dir = "data"
-    output_path = os.path.join(output_dir, "sensitive_output.txt")
+    output_path = os.path.join(output_dir, f"{outpath}")
 
     # Ensure the data folder exists
     os.makedirs(output_dir, exist_ok=True)
