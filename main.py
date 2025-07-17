@@ -28,7 +28,7 @@ def parse_args():
     
     key, iv = load_key_iv(args.keyfile)
 
-    if args.mode == "extract": #Save sensitive data for test 
+    if args.mode == "extract": #Extract secret and database
         extract_secret_and_database(args.input_file, args.output_file)
     elif args.mode == "encrypt": #Encrypt the input file using key, iv 
         encrypt_file(args.input_file, args.output_file, key, iv)
