@@ -1,8 +1,0 @@
-SECRET_KEY = "django-insecure-*aslfkjslakfjlaksjfl;lkf;lskfd;lks;dfks;ldfk09s80fsnl*b"
-DATABASE_ENGINE = 'django.db.backends.mysql'
-DATABASE_NAME = 'laihdjsns'
-DATABASE_USER = 'toijej_remote'
-DATABASE_PASSWORD = 'F@_orijsk'
-DATABASE_HOST = '45.162.45.234'
-DATABASE_PORT = '3306'
-DATABASE_OPTIONS = {'charset': 'utf8mb4', 'use_unicode': True}
