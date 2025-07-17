@@ -9,10 +9,11 @@ def parse_args():
     parser = argparse.ArgumentParser(description="envguard") #Application Description
     
     parser.add_argument("mode", choices=["encrypt", "decrypt", "extract", "genkey"], help="Operation to perform")
-    # Input/Output file path for encryption and decryption 
+    # Argument for Input/Output file path for encryption and decryption 
     parser.add_argument("input_file", help="Input file path")
-    # Input/Output file path for encryption and decryption 
+    # Argument for Input/Output file path for encryption and decryption 
     parser.add_argument("output_file", help="Output file path")
+    # Optional argument for keyfile, defaulted to data/aes.key 
     parser.add_argument("--keyfile", default="data/aes.key", help="Key file path")
 
     args = parser.parse_args()
