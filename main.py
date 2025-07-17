@@ -7,7 +7,7 @@ from decryptor import decrypt_file
 
 def parse_args():
     parser = argparse.ArgumentParser(description="envguard - AES-256 Encryption Tool")
-    subparsers = parser.add_subparsers(dest="mode", required=True, help="Choose a mode")
+    subparsers = parser.add_subparsers(dest="mode", required=True, help="Operational Modes")
 
     # Encrypt
     encrypt_parser = subparsers.add_parser("encrypt", help="Encrypts Input File")
