@@ -37,13 +37,7 @@ def parse_args():
 
 
 parse_args()
-# extract_secret_and_database("settings.py")
-# save_key_iv()
-# key, iv = load_key_iv()
-# encrypt_file("data/sensitive_output.txt", "data/.env_encrypted", key, iv)
-# decrypt_file("data/.env_encrypted", "data/.env_decrypted", key, iv)
 
-# Modify original functions for encrypting, decrypting, saving/loading keys, and extracting secret to show changes on the CLI 
 
 
 
